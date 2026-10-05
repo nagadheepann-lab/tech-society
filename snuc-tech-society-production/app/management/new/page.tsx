@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { supabase } from '../../../lib/supabase'
-import SessionGate from '../../../components/SessionGate'
+import SessionGate from '../../components/SessionGate'
 
 type OpportunityForm = {
   title: string
